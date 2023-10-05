@@ -1,0 +1,118 @@
+.searchpage{
+    /* background-image: url(/src/components/searchPage/image4.jpg); */
+    height: 100vh;
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: rgb(221, 220, 220);
+}
+.searchpage .card-only{
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchpage .account{
+    display: flex;
+    justify-content: end;
+}
+.searchpage .accbtn{
+    background-color: rgb(4, 4, 32);
+    color: white;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.searchpage .card{
+    width: 40%;
+    border: none;
+    border: 1px solid transparent;
+    background-color: transparent;
+    box-shadow: 0px 0px 30px 10px rgb(5, 5, 39);
+}
+.searchpage input{
+    border: none;
+    border-bottom: 1px solid rgb(211, 208, 208);
+    outline: none;
+    background-color: transparent;
+}
+.searchpage .search{
+    display: flex;
+    justify-content: center;
+}
+.searchpage .searchbtn{
+    background-color: rgb(4, 4, 32);
+    color: white;
+    border: none;
+    border: 1px solid rgb(4, 4, 32);
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(221, 220, 220);
+    min-height: 100vh;
+}
+.profile .card1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid;
+    width: 30%;
+   margin-top: 100px;
+    box-shadow: 0px 0px 30px 10px rgb(5, 5, 39);
+}
+.profile .usericon{
+    font-size: 70px;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 30px;
+}
+.profile th,td{
+    padding: 20px;
+}
+.profile .order{
+    background-color: rgb(4, 4, 32);
+    color: white;
+   text-decoration: none;
+    border: 1px solid rgb(4, 4, 32);
+}
+.profile .logout{
+    background-color: rgb(4, 4, 32);
+    color: white;
+    text-decoration: none;
+    border: 1px solid rgb(4, 4, 32);
+}
+.myticket td{
+    padding: 10px;
+}
+.buses{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(221, 220, 220);
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+.buses .bus-card{
+    border: 1px solid rgb(146, 144, 144);
+    width: 50%;
+    padding: 10px;
+}
+.buses .bookbtn{
+    background-color: rgb(4, 4, 32);
+    color: white;
+    text-decoration: none;
+    border: 1px solid rgb(4, 4, 32);
+}
+.booking{
+    background-color: rgb(221, 220, 220);
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+.booking td{
+    padding: 10px;
+}
+.booking .bookbtn{
+    background-color: rgb(4, 4, 32);
+    color: white;
+    text-decoration: none;
+    border: 1px solid rgb(4, 4, 32);
+}

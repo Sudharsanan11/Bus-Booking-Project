@@ -1,0 +1,66 @@
+.login-form {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(221, 220, 220);
+}
+.login-form h1{
+  font-weight: 900;
+  color: rgb(9, 9, 66);
+  font-family: 'Poppins', sans-serif;
+}
+.login-form input{
+  border: none;
+  border: 1px solid rgb(211, 208, 208);
+  width: 325px;
+  font-family: 'Montserrat', sans-serif;
+}
+.login-form .loginbtn{
+  background-color: rgb(4, 4, 32);
+  width: 325px;
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+
+.login-form .signup{
+    color: rgb(9, 9, 66);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.signup-form input{
+  border: none;
+  border: 1px solid rgb(211, 208, 208);
+  width: 325px;
+  font-family: 'Montserrat', sans-serif;
+}
+.signup-form h1{
+  font-weight: 700;
+  color: rgb(9, 9, 66);
+  font-family: 'Poppins', sans-serif;
+}
+.signup-form{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(221, 220, 220);
+}
+.signup-form .signupbtn{
+  background-color: rgb(4, 4, 32);
+  width: 325px;
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+.signup-form .login{
+  color: rgb(9, 9, 66);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}

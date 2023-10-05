@@ -1,0 +1,272 @@
+.admin-page{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(221, 220, 220);
+}
+.admin-page .card{
+    width: 20%;
+    height: fit-content;
+    padding: 20px;
+    margin-top: 15%;
+    background-color: transparent;
+    margin-left: -30px;
+    text-align: center;
+}
+.admin-page .button{
+    border: 1px solid rgb(4, 4, 32);
+    background-color: rgb(4, 4, 32);
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+
+}
+.showuser{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(221, 220, 220);
+}
+
+.showuser table,th,td{
+    margin-top: 50px;
+    border: 1px solid rgb(4, 4, 32);
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+ 
+.showuser tr:nth-child(even){
+    background-color:#e9dcdc;
+}
+.showuser tr:hover{
+    background-color: #e9dcdc;
+}
+
+.showuser th {
+    background-color: rgb(139, 133, 133);
+    color: white;
+  }
+.showuser .updatebtn{
+   background-color: cadetblue;
+   color: white;
+}
+.showuser .deletebtn{
+    background-color: rgb(208, 84, 84);
+    color: white;
+}
+.showbus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 220, 220);
+    min-height: 100vh;
+}
+
+.showbus table,th,td{
+    margin-top: 60px;
+    border: 1px solid #888888;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+ 
+.showbus tr:nth-child(even){
+    background-color:#e9dcdc;
+}
+.showbus tr:hover{
+    background-color: #e9dcdc;
+}
+.showbus .editbtn{
+    background-color: rgb(208, 84, 84);
+    color: white;
+}
+.showbus th {
+    background-color: rgb(139, 133, 133);
+    color: white;
+  }
+.showbus .updatebtn{
+   background-color: cadetblue;
+   color: white;
+}
+.showbus .deletebtn{
+    background-color: rgb(208, 84, 84);
+    color: white;
+}
+.showbus .addbusbtn{
+    border: 1px solid rgb(4, 4, 32);
+    background-color: rgb(4, 4, 32);
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+.addbus {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(221, 220, 220);
+  }
+  .addbus h1{
+    font-weight: 900;
+    color: rgb(9, 9, 66);
+    font-family: 'Poppins', sans-serif;
+  }
+.addbus input,select{
+    border: none;
+  border: 1px solid rgb(211, 208, 208);
+  width: 325px;
+  font-family: 'Montserrat', sans-serif;
+}
+.addbus .addbtn{
+    background-color: rgb(4, 4, 32);
+    width: 325px;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+  }
+.userupdate {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(221, 220, 220);
+  }
+  .userupdate h1{
+    font-weight: 900;
+    color: rgb(9, 9, 66);
+    font-family: 'Poppins', sans-serif;
+  }
+.userupdate input,select{
+    border: none;
+  border: 1px solid rgb(211, 208, 208);
+  width: 325px;
+  font-family: 'Montserrat', sans-serif;
+}
+.userupdate .updatebtn{
+    background-color: rgb(4, 4, 32);
+    width: 325px;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+  }
+  .editbus {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(221, 220, 220);
+  }
+  .editbus h1{
+    font-weight: 900;
+    color: rgb(9, 9, 66);
+    font-family: 'Poppins', sans-serif;
+  }
+.editbus input{
+    border: none;
+  border: 1px solid rgb(211, 208, 208);
+  width: 325px;
+  font-family: 'Montserrat', sans-serif;
+}
+.editbus .editbtn{
+    background-color: rgb(4, 4, 32);
+    width: 325px;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+  }
+  .updatebus {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(221, 220, 220);
+  }
+  .updatebus h1{
+    font-weight: 900;
+    color: rgb(9, 9, 66);
+    font-family: 'Poppins', sans-serif;
+  }
+.updatebus input{
+    border: none;
+  border: 1px solid rgb(211, 208, 208);
+  width: 325px;
+  font-family: 'Montserrat', sans-serif;
+}
+.updatebus .updatebtn{
+    background-color: rgb(4, 4, 32);
+    width: 325px;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.availablebus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 220, 220);
+}
+
+.availablebus table,th,td{
+    margin-top: 60px;
+    border: 1px solid #888888;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+ 
+.availablebus tr:nth-child(even){
+    background-color:#e9dcdc;
+}
+.availablebus tr:hover{
+    background-color: #e9dcdc;
+}
+.availablebus th {
+    background-color: rgb(139, 133, 133);
+    color: white;
+}
+.availablebus .bookbtn{
+    background-color: cadetblue;
+   color: white;
+}
+.availablebus .deletebtn{
+    background-color: rgb(208, 84, 84);
+    color: white;
+}
+.bookingdetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 220, 220);
+}
+
+.bookingdetails table,th,td{
+    margin-top: 60px;
+    border: 1px solid #888888;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+ 
+.bookingdetails tr:nth-child(even){
+    background-color:#e9dcdc;
+}
+.bookingdetails tr:hover{
+    background-color: #e9dcdc;
+}
+.bookingdetails th {
+    background-color: rgb(139, 133, 133);
+    color: white;
+}
